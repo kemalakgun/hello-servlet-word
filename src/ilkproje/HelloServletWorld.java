@@ -17,7 +17,7 @@ public class HelloServletWorld extends HttpServlet {
 
 		PrintWriter pw = resp.getWriter();
 		Date today = new Date();
-		String msg = "HelloServletWorld";
+		String msg = "merhaba dunya";
 
 		pw.print("<html><body> <h1>" + msg + "</h1>");
 		pw.print("<p>today:" + today + "<p>");
